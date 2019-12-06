@@ -14,4 +14,6 @@ main
  ├── make_plots   # iPython notebook files for making the plots in the paper
  └── figures      # folder to save figures into
 ```
-In the main directory, there are the wrapper functions to play each algorithm many times
+In the main directory, there are the wrapper functions to play each algorithm many times, the functions themselves are in the functs directory. 
+
+Most experiments in paper run using python 2.7.12, requiring modules numpy (1.15.4), matplotlib (1.5.3), copy (3.3), GPy (1.9.2), itertools, random, os, scipy (0.19.1)
